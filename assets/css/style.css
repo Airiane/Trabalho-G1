@@ -1,0 +1,198 @@
+body{
+	font-family: arial;
+}
+header{
+	background-color: #f7f0ef;
+}
+section:after{
+ 	content: "";
+  	display: table;
+	clear: both;
+}
+nav{
+	padding: 3px 0px 3px 0px;
+}
+nav ul{
+	list-style-type: none;
+ }
+h2{
+	text-align: left;
+	color: #302f2f;
+	font-family: 'sitka small';
+	padding: 10px;
+}
+h3{
+	padding: 10px;
+	margin-left: 30px;
+}
+h4{
+	text-align: center;
+	color: #3d2826;
+}
+p{
+	margin-left: 30px;
+}
+span{
+	color: #47000a;
+	font-size: 120%;
+}
+footer{
+	margin-top: 20px;
+	text-align: center;
+	background-color: #f7e9d7;
+	padding: 3px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+
+#logo{
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding: 10px;
+	margin-top: 10px;
+}
+#tit{
+	float: left;
+	width: 78%;
+}
+#foot{
+	text-align: center;
+}
+#resen{
+	float: left;
+	width: 16%;
+	margin-left: 12%;
+}
+#rec{
+	float: left;
+	width: 18%;
+}
+#autores{
+	float: left;
+	width: 16%;
+}
+#sobre{
+	float: left;
+	width: 16%;
+}
+#contato{
+	float: left;
+	width: 16%;
+}
+#linha1{
+	text-align: center;
+	padding: 10px;
+	letter-spacing: 40px;
+}
+#coluna1{
+	float: left;
+	width: 58%;
+}
+#coluna2{
+	margin-top: 80px;
+	float: right;
+	width: 38%;
+	text-align: center;
+	padding: 10px;
+}
+#font{
+	font-family: 'segoe print';
+	font-weight: bold;
+}
+#negrito{
+	font-weight: bold;
+}
+#iconetinta{
+	float: left;
+	width: 28%;
+	margin-top: 10px;
+}
+#espaco{
+	margin-left: 10px;
+}
+
+
+.linha:after{
+	content: "";
+  	display: table;
+	clear: both;
+}
+.imagens:hover {
+	 opacity: 0.5;
+	 filter: alpha(opacity=50);
+}
+.imagens{
+	max-width: 280px;
+}
+.foto{
+	border-radius: 100%;
+	max-width: 30%;
+}
+.descri{
+	padding: 40px;
+	font-family: 'segoe print';
+}
+.icones{
+	max-width: 25px;
+	margin: 25px;
+}
+.taman{
+	font-size: 10px;
+}
+.subtitulo{
+	text-align: center;
+	margin-top: 30px;
+}
+.fotoresen{
+	max-width: 400px;
+	padding: 40px;
+}
+.acolor{
+	color: #701616; 
+}
+.pclass{
+	font-size: 15px;
+	color: #888888;
+	margin-left: 40px;
+}
+.autpag{
+	color: #888888;
+	text-align: center;
+}
+.wrapper{
+	font-family: sans-serif;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+.fotoresen{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+}
+.content{
+	position: absolute;
+	top: 45%;
+	left: 38%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+}
+.overlay{
+	opacity: 0
+}
+.wrapper:hover .fotoresen{
+	opacity: .1
+}
+.wrapper:hover .overlay{
+	opacity: 1
+}
